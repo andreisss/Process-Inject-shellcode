@@ -6,11 +6,10 @@
 ----------------------------------
 	Injects shellcode into an a newly spawned remote process.
 	---------------------------------
-*/
 ----------------------------------
 key win32 API calls:
 ---------------------------------
-*/
+
 ----------------------------------
   - kernel32.dll:
     1: 'OpenProcess'
@@ -18,6 +17,3 @@ key win32 API calls:
     3: 'WriteProcessMemory'
     4: 'CreateRemoteThread'
    ---------------------------------
-*/
-----------------------------------
-*/
